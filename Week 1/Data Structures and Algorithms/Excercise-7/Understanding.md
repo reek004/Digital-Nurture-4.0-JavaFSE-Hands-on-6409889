@@ -1,10 +1,10 @@
 ### Understanding Recursive Algorithms
 
-** What is Recursion?**  
+** What is Recursion? **  
 Recursion is a technique where a function calls itself to solve a problem by breaking it down into smaller parts.  
 In my forecasting tool, recursion is used to apply the compound growth formula repeatedly over a number of years.
 
-** How Does Recursion Simplify the Problem?**  
+** How Does Recursion Simplify the Problem? **  
 Instead of using loops, I recursively calculate the future value:  
 **FV = PV × (1 + r)^n**  
 By calling the function again with updated parameters, the logic directly mirrors the mathematical expression.  
