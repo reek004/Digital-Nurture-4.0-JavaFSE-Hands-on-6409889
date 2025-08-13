@@ -1,0 +1,1 @@
+[Link](https://gitlab.com/rex04/gitignore.git)
